@@ -77,12 +77,9 @@ class User(AbstractBaseUser):
         return self.is_admin
 
 
-
-
-
-
-
-
+class Contact(models.Model):
+    # user = models.ForiegnKey()
+    pass
 
 
 
