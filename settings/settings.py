@@ -17,6 +17,9 @@ environ.Env.read_env(
 SECRET_KEY = env('SECRET_KEY')
 DEBUG = env('DEBUG')
 
+WEBHOOK = env('HOOK_URL')
+TOKEN = env('TOKEN')
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
