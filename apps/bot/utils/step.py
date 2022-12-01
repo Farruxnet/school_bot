@@ -6,4 +6,5 @@ STEP = {
     "COURSE_NAME": 4,
     "COURSE_ADDRESS": 5,
     "COURSE_PHONE": 6,
+    "COURSE_SEX": 7,
 }

@@ -1,15 +1,18 @@
+import traceback
+
 from django.shortcuts import HttpResponse
 import telebot
 from django.conf import settings
 import json
 
+from bot.models import Register
 from bot.utils.contact_message import contact_message
 from bot.utils.buttons import start_button, courses_button, home_btn
 from bot.utils.language import LAN
 from bot.utils.register import course_detail, user_name, user_sex, user_address, user_phone_number
 from bot.utils.step import STEP
 from users.models import User
-from data.models import StartText, About, ContactInfo, Faq
+from data.models import StartText, About, ContactInfo, Faq, Courses
 
 bot = telebot.TeleBot(settings.TOKEN)
 
@@ -87,6 +90,12 @@ def faq(message):
 @bot.callback_query_handler(func=lambda call: True)
 def call_back(call):
     user_id = call.message.chat.id
+    if Register.objects.filter(user__tg_id=user_id, status=False).exists():
+        Register.objects.filter(user__tg_id=user_id, status=False).delete()
+    Register.objects.create(
+        user=User.objects.get(tg_id=user_id),
+        course=Courses.objects.get(id=call.data.split('_')[1])
+    )
     bot.send_message(user_id, LAN['name'], parse_mode='html', reply_markup=home_btn())
     User.objects.filter(tg_id=user_id).update(step=STEP['COURSE_REGISTER'])
 
@@ -115,11 +124,12 @@ def text(message):
             STEP['CONTACT_US']: contact_message,
             STEP['COURSES']: course_detail,
             STEP['COURSE_REGISTER']: user_name,
-            STEP['COURSE_NAME']: user_sex,
+            STEP['COURSE_SEX']: user_sex,
             STEP['COURSE_ADDRESS']: user_address,
             STEP['COURSE_PHONE']: user_phone_number,
         }
         func = switcher.get(user_step, lambda: home(message))
         func(message, bot)
     except Exception as e:
+        print(traceback.format_exc())
         print(e)

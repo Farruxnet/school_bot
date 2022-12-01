@@ -9,9 +9,15 @@ LAN = {
     "back": "Orqaga",
     "next": "Kiyingi",
     "contact_us": "Bog'lanish",
-    "phone_number": "Telefon raqam",
+    "phone_number": "Telefon raqamingizni kiriting.",
+    "phone_number_btn": "Telefon raqamini yuborish",
     "name": "Ismingiz?",
     "courses": "Kurslar",
     "about": "Biz haqimizda",
-    "success_message": "Raxmat xabaringiz yuborildi tez orada siz bilan bo'g'lanamiz!"
+    "sex": "Jinsingiz?",
+    "man": "Erkak",
+    "woman": "Ayol",
+    "address": "Manzlingizni kiriting.",
+    "success_register": "Bizni tanlaganingiz uchun raxmat! Tez orada siz bilan bog'lanamiz.",
+    "success_message": "Raxmat xabaringiz yuborildi tez orada siz bilan bo'g'lanamiz!",
 }
