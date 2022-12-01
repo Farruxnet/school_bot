@@ -6,6 +6,7 @@ import json
 from bot.utils.contact_message import contact_message
 from bot.utils.buttons import start_button, courses_button, home_btn
 from bot.utils.language import LAN
+from bot.utils.register import course_detail, user_name, user_sex, user_address, user_phone_number
 from bot.utils.step import STEP
 from users.models import User
 from data.models import StartText, About, ContactInfo, Faq
@@ -68,6 +69,7 @@ def home(message):
 @bot.message_handler(func=lambda msg: msg.text == LAN['courses'])
 def courses(message):
     bot.send_message(message.chat.id, LAN['courses'], parse_mode='html', reply_markup=courses_button())
+    User.objects.filter(tg_id=message.chat.id).update(step=STEP['COURSES'])
 
 @bot.message_handler(func=lambda msg: msg.text == LAN['contact_us'])
 def courses(message):
@@ -80,6 +82,13 @@ def courses(message):
 @bot.message_handler(func=lambda msg: msg.text == LAN['faq'])
 def faq(message):
     bot.send_message(message.chat.id, Faq.objects.last().faq, parse_mode='html', reply_markup=courses_button())
+
+
+@bot.callback_query_handler(func=lambda call: True)
+def call_back(call):
+    user_id = call.message.chat.id
+    bot.send_message(user_id, LAN['name'], parse_mode='html', reply_markup=home_btn())
+    User.objects.filter(tg_id=user_id).update(step=STEP['COURSE_REGISTER'])
 
 
 @bot.message_handler(func=lambda msg: msg.text == LAN['about'])
@@ -104,6 +113,11 @@ def text(message):
         switcher = {
             STEP['DEFAULT']: home,
             STEP['CONTACT_US']: contact_message,
+            STEP['COURSES']: course_detail,
+            STEP['COURSE_REGISTER']: user_name,
+            STEP['COURSE_NAME']: user_sex,
+            STEP['COURSE_ADDRESS']: user_address,
+            STEP['COURSE_PHONE']: user_phone_number,
         }
         func = switcher.get(user_step, lambda: home(message))
         func(message, bot)

@@ -16,6 +16,7 @@ environ.Env.read_env(
 
 SECRET_KEY = env('SECRET_KEY')
 DEBUG = env('DEBUG')
+HOST = env('HOOK_URL')
 
 WEBHOOK = env('HOOK_URL')
 TOKEN = env('TOKEN')
@@ -64,7 +65,7 @@ ROOT_URLCONF = 'settings.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

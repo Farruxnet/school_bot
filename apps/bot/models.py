@@ -6,7 +6,7 @@ class Messages(models.Model):
     message = models.TextField()
     answer = models.TextField(null=True)
     create_at = models.DateTimeField(auto_now_add=True)
-
+    is_answer = models.BooleanField(default=False)
 
     def __str__(self):
         return f'{self.user}'
