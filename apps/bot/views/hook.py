@@ -84,6 +84,7 @@ def start(message):
         print(traceback.format_exc())
         print(e)
 
+
 @bot.message_handler(func=lambda msg: msg.text == LAN[get_user_lan(msg.chat.id)]['home'])
 def home(message):
     try:
@@ -97,7 +98,7 @@ def courses(message):
     lan = User.objects.get(tg_id=message.chat.id).language
     bot.send_message(message.chat.id, LAN[lan]['courses'], parse_mode='html', reply_markup=courses_button(lan))
     User.objects.filter(tg_id=message.chat.id).update(step=STEP['COURSES'])
-    print(4545)
+
 
 @bot.message_handler(func=lambda msg: msg.text == LAN[get_user_lan(msg.chat.id)]['contact_us'])
 def courses(message):
@@ -107,6 +108,14 @@ def courses(message):
     except Exception as e:
         print(e)
     User.objects.filter(tg_id=message.chat.id).update(step=STEP['CONTACT_US'])
+
+
+@bot.message_handler(func=lambda msg: msg.text == LAN[get_user_lan(msg.chat.id)]['change_lan'])
+def change_lan(message):
+    lan_button = types.ReplyKeyboardMarkup(row_width=2, resize_keyboard=True)
+    lan_button.add(*[LAN['oz_text'], LAN['ru_text']])
+    bot.send_message(message.chat.id, LAN['choose_lan'], parse_mode='html', reply_markup=lan_button)
+    User.objects.filter(tg_id=message.chat.id).update(step=STEP['LAN'])
 
 
 @bot.message_handler(func=lambda msg: msg.text == LAN[get_user_lan(msg.chat.id)]['faq'])

@@ -18,7 +18,7 @@ def get_user_lan(user_id):
 
 def entry_language(message, bot):
     lan = 'oz'
-    if message.text == LAN['ru']:
+    if message.text == LAN['ru_text']:
         lan = 'ru'
     User.objects.filter(tg_id=message.chat.id).update(language=lan, step=STEP['DEFAULT'])
     lan = User.objects.get(tg_id=message.chat.id).language

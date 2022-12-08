@@ -9,7 +9,7 @@ bot = telebot.TeleBot(settings.TOKEN)
 from bot.utils.language import LAN
 
 def home_button(lan):
-    return [LAN[lan]['courses'], LAN[lan]['about'], LAN[lan]['contact_us']]
+    return [LAN[lan]['courses'], LAN[lan]['about'], LAN[lan]['contact_us'], LAN[lan]['change_lan']]
 
 def bottom_button(lan):
     return [LAN[lan]['home']]
