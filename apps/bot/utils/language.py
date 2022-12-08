@@ -13,4 +13,4 @@ try:
         "ru": lan.ru
     }
 except:
-    pass
+    LAN = {}
