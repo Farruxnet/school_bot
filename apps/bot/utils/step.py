@@ -1,5 +1,6 @@
 STEP = {
     "DEFAULT": 0,
+    "LAN": 8,
     "CONTACT_US": 1,
     "COURSES": 2,
     "COURSE_REGISTER": 3,

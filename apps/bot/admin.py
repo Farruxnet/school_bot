@@ -4,10 +4,10 @@ from bot.models import Messages, Settings, Register
 
 @admin.register(Register)
 class RegisterAdmin(admin.ModelAdmin):
-    list_display = ['user', 'course', 'name', 'sex', 'username', 'address', 'phone', 'created_at']
-    fields = ['user', 'course', 'username', 'name', 'sex', 'address', 'phone', 'created_at']
-    list_filter = ['course', 'sex']
-    readonly_fields = ['user', 'course', 'name', 'sex', 'username', 'address', 'phone', 'created_at']
+    list_display = ['user', 'course', 'name', 'sex', 'username', 'address', 'phone', 'created_at', 'status']
+    fields = ['user', 'course', 'username', 'name', 'sex', 'address', 'phone', 'created_at', 'status']
+    list_filter = ['course', 'sex', 'status']
+    readonly_fields = ['user', 'course', 'name', 'sex', 'username', 'address', 'phone', 'created_at', 'status']
 
     def has_add_permission(self, request):
         return False

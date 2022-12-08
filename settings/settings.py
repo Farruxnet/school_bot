@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'bot',
     'data',
     'users',
+    'django_json_widget',
 ]
 
 MIDDLEWARE = [

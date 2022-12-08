@@ -1,23 +1,13 @@
+from data.models import Language
+try:
+    lan = Language.objects.last()
+except:
+    lan = ""
+
 LAN = {
-    "faq": "Ko'p beriladigan savollar",
-    "new_message": "✍️ Yangi xabar",
-    "answer": "🔗 Javob berish",
-    "error": "Xatolik yuz berdi!",
-    "register_step_one": "Ushbu kursa yozilish uchun ro'yxatdan o'tish tugmasini bosing.",
-    "home": "Bosh sahifa",
-    "register": "✍ Kursa yozilish",
-    "back": "Orqaga",
-    "next": "Kiyingi",
-    "contact_us": "Bog'lanish",
-    "phone_number": "Telefon raqamingizni kiriting.",
-    "phone_number_btn": "Telefon raqamini yuborish",
-    "name": "Ismingiz?",
-    "courses": "Kurslar",
-    "about": "Biz haqimizda",
-    "sex": "Jinsingiz?",
-    "man": "Erkak",
-    "woman": "Ayol",
-    "address": "Manzlingizni kiriting.",
-    "success_register": "Bizni tanlaganingiz uchun raxmat! Tez orada siz bilan bog'lanamiz.",
-    "success_message": "Raxmat xabaringiz yuborildi tez orada siz bilan bo'g'lanamiz!",
+    "choose_lan": "Tilni tanlang",
+    "oz_text": "O'zbek",
+    "ru_text": "Руский",
+    "oz": lan.oz,
+    "ru": lan.ru
 }

@@ -3,6 +3,7 @@ from django.contrib.auth.models import (
     BaseUserManager, AbstractBaseUser
 )
 
+
 class UserManager(BaseUserManager):
     def create_user(self, username, password=None):
         if not username:
@@ -34,7 +35,7 @@ class User(AbstractBaseUser):
         ('ru', 'Руский'),
         ('en', 'Ingliz'),
     )
-    tg_id = models.BigIntegerField(default=0, verbose_name = "Telegram ID")
+    tg_id = models.BigIntegerField(default=0, verbose_name="Telegram ID")
     phone_number = models.CharField(max_length=13, unique=True, null=True, blank=True)
     name = models.CharField(max_length=255, null=True, blank=True)
     username = models.CharField(max_length=50, null=True, blank=True, unique=True)
@@ -47,7 +48,7 @@ class User(AbstractBaseUser):
         ('2', "O'chirib qaytgan"),
     )
 
-    status = models.CharField(default = '1', choices=STATUS_CHOICES, max_length=10)
+    status = models.CharField(default='1', choices=STATUS_CHOICES, max_length=10)
     amount = models.IntegerField(default=0)
     step = models.IntegerField(default=0)
     create_at = models.DateTimeField(auto_now_add=True)
@@ -69,8 +70,8 @@ class User(AbstractBaseUser):
         return True
 
     class Meta:
-        verbose_name="Foydalanuvchi"
-        verbose_name_plural="Foydalanuvchilar"
+        verbose_name = "Foydalanuvchi"
+        verbose_name_plural = "Foydalanuvchilar"
 
     @property
     def is_staff(self):
@@ -80,18 +81,5 @@ class User(AbstractBaseUser):
 class Contact(models.Model):
     # user = models.ForiegnKey()
     pass
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ########################
