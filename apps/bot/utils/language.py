@@ -4,10 +4,13 @@ try:
 except:
     lan = ""
 
-LAN = {
-    "choose_lan": "Tilni tanlang",
-    "oz_text": "O'zbek",
-    "ru_text": "Руский",
-    "oz": lan.oz,
-    "ru": lan.ru
-}
+try:
+    LAN = {
+        "choose_lan": "Tilni tanlang",
+        "oz_text": "O'zbek",
+        "ru_text": "Руский",
+        "oz": lan.oz,
+        "ru": lan.ru
+    }
+except:
+    pass
