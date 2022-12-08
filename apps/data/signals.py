@@ -16,4 +16,4 @@ def reboot_gunicorn(sender, instance, created, **kwargs):
         print(45)
         if not settings.DEBUG:
             print(12)
-            os.system("sudo systemctl restart school")
+            os.system("systemctl restart school")
