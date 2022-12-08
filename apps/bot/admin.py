@@ -8,7 +8,6 @@ class RegisterAdmin(admin.ModelAdmin):
     fields = ['user', 'course', 'username', 'name', 'sex', 'address', 'phone', 'created_at', 'status']
     list_filter = ['course', 'sex', 'status']
     readonly_fields = ['user', 'course', 'name', 'sex', 'username', 'address', 'phone', 'created_at', 'status']
-
     def has_add_permission(self, request):
         return False
 
@@ -26,7 +25,7 @@ class SettingsAdmin(admin.ModelAdmin):
 @admin.register(Messages)
 class MessagesAdmin(admin.ModelAdmin):
     fields = ['user', 'message', 'answer', 'create_at']
-    list_display = ['id', 'user', 'message', 'answer', 'create_at', 'is_answer']
+    list_display = ['user', 'message', 'answer', 'create_at', 'is_answer']
     readonly_fields = ['message', 'create_at']
     list_filter = ['is_answer', ]
 
