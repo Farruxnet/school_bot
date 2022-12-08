@@ -14,6 +14,10 @@ class FaqAdmin(admin.ModelAdmin):
             return False
         return True
 class LanguageDataAdmin(admin.ModelAdmin):
+
+    def has_delete_permission(self, request, obj=None):
+        return False
+
     def has_add_permission(self, request, obj=None):
         if Language.objects.all():
             return False
