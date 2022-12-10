@@ -29,6 +29,9 @@ def start_button(tg_id):
 
 def courses_button(lan):
     courses_button = types.ReplyKeyboardMarkup(row_width=2, resize_keyboard=True)
-    courses_button.add(*[course.name for course in Courses.objects.all()])
+    if lan == "oz":
+        courses_button.add(*[course.name for course in Courses.objects.all()])
+    else:
+        courses_button.add(*[course.name_ru for course in Courses.objects.all()])
     courses_button.add(*bottom_button(lan))
     return courses_button
