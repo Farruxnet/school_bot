@@ -1,5 +1,6 @@
 from django.db import models
 from django.db.models import JSONField
+from django.utils import timezone
 
 
 class About(models.Model):
@@ -91,3 +92,22 @@ class StartText(models.Model):
     class Meta:
         verbose_name = "Start matni"
         verbose_name_plural = "Start matni"
+
+
+class Messages(models.Model):
+    oz = models.TextField(verbose_name="O'zbek (max 1024)")
+    ru = models.TextField(verbose_name="Руский (max 1024)", null=True)
+
+    image = models.ImageField(upload_to='messages/', verbose_name="Rasm")
+    image_id = models.CharField(max_length=1024, verbose_name='Tele photo id', null=True, blank=True)
+    date = models.DateTimeField(default=timezone.now, verbose_name='Qo\'shilgan vaqti')
+    count = models.IntegerField(default=0, verbose_name='Yuborilganlar soni')
+    not_send_count = models.IntegerField(default=0, verbose_name='Yuborilmaganlar soni')
+    status = models.BooleanField(default=False, verbose_name='Holati')
+
+    def __str__(self):
+        return f'{self.oz}'
+
+    class Meta:
+        verbose_name = "Xabar yuborish"
+        verbose_name_plural = "Xabarlar yuborish"
