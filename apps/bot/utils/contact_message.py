@@ -14,14 +14,14 @@ def contact_message(message, bot):
         message=message.text
     ).id
     try:
-        text = f"<b>{LAN['new_message']}</b>\n\n{message.text}\n\n<a href='{settings.HOST}/admin/bot/messages/{message_id}/change/'>{LAN['answer']}</a>"
+        text = f"<b>{LAN[user.language]['new_message']}</b>\n\n{message.text}\n\n<a href='{settings.HOST}/admin/bot/messages/{message_id}/change/'>{LAN[user.language]['answer']}</a>"
         for admin in admins:
             bot.send_message(
                 admin.admin.tg_id,
                 text,
                 parse_mode='html'
             )
-        bot.send_message(message.chat.id, LAN['success_message'], parse_mode='html', reply_markup=start_button())
+        bot.send_message(message.chat.id, LAN[user.language]['success_message'], parse_mode='html', reply_markup=start_button())
         User.objects.filter(tg_id=message.chat.id).update(step=STEP['DEFAULT'])
     except Exception as e:
         print(e)
