@@ -174,5 +174,6 @@ def text(message):
         func = switcher.get(user_step, lambda: home(message))
         func(message, bot)
     except Exception as e:
+        start(message)
         print(traceback.format_exc())
         print(e)
