@@ -122,7 +122,7 @@ def change_lan(message):
 def faq(message):
     lan = User.objects.get(tg_id=message.chat.id).language
     faq = Faq.objects.last().faq if lan == 'oz' else Faq.objects.last().faq_ru
-    bot.send_message(message.chat.id, faq, parse_mode='html', reply_markup=courses_button(lan))
+    bot.send_message(message.chat.id, faq, parse_mode='html', reply_markup=home_btn(message.chat.id))
 
 
 @bot.callback_query_handler(func=lambda call: True)
