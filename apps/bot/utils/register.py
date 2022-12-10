@@ -19,7 +19,7 @@ def course_detail(message, bot):
             text = f"<b>{course.name}</b>\n\n{course.description}"
         else:
             course = Courses.objects.get(name_ru=message.text)
-            text = f"<b>{course.name_ru}</b>\n\n{course.description}"
+            text = f"<b>{course.name_ru}</b>\n\n{course.description_ru}"
         course_register_button = types.InlineKeyboardMarkup(row_width=1)
         course_register_button.add(types.InlineKeyboardButton(text=LAN[lan]['register'], callback_data=f'reg_{course.id}'))
         photo_id = open(f'{settings.BASE_DIR}/media/{course.image}', 'rb')
