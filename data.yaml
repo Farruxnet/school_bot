@@ -1,0 +1,3694 @@
+- model: admin.logentry
+  pk: 1
+  fields:
+    action_time: 2022-11-27 10:16:34.890542+00:00
+    user: 1
+    content_type: 12
+    object_id: '1'
+    object_repr: Assalomu alaykum!
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 2
+  fields:
+    action_time: 2022-11-27 10:17:25.532334+00:00
+    user: 1
+    content_type: 13
+    object_id: '1'
+    object_repr: English Academy
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 3
+  fields:
+    action_time: 2022-11-27 10:18:19.820343+00:00
+    user: 1
+    content_type: 8
+    object_id: '1'
+    object_repr: "Tel: +998901234567\r\nManzil: Toshkent Shahri, Yunusabod tumani
+      16A-uy"
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 4
+  fields:
+    action_time: 2022-11-27 10:19:22.253105+00:00
+    user: 1
+    content_type: 7
+    object_id: '1'
+    object_repr: Settings object (1)
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 5
+  fields:
+    action_time: 2022-12-03 15:56:13.035431+00:00
+    user: 1
+    content_type: 12
+    object_id: '1'
+    object_repr: "Assalomu alaykum!\r\n\r\nOnline maktabimizga hush kelibsiz!"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Text"]}}]'
+- model: admin.logentry
+  pk: 6
+  fields:
+    action_time: 2022-12-03 15:58:17.273762+00:00
+    user: 1
+    content_type: 11
+    object_id: '1'
+    object_repr: "<b>Can I enroll at Liberty University Online Academy if I live in
+      another country?</b>\r\n\r\nLiberty Un"
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 7
+  fields:
+    action_time: 2022-12-03 15:59:37.030040+00:00
+    user: 1
+    content_type: 13
+    object_id: '1'
+    object_repr: English Academy
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Text"]}}]'
+- model: admin.logentry
+  pk: 8
+  fields:
+    action_time: 2022-12-03 16:03:37.396894+00:00
+    user: 1
+    content_type: 9
+    object_id: '1'
+    object_repr: Ingliz tili
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 9
+  fields:
+    action_time: 2022-12-03 16:04:05.859636+00:00
+    user: 1
+    content_type: 9
+    object_id: '2'
+    object_repr: Turk tili
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 10
+  fields:
+    action_time: 2022-12-03 16:04:53.156303+00:00
+    user: 1
+    content_type: 9
+    object_id: '3'
+    object_repr: Koreys tili
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 11
+  fields:
+    action_time: 2022-12-03 16:05:29.355490+00:00
+    user: 1
+    content_type: 9
+    object_id: '4'
+    object_repr: Rus tili
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 12
+  fields:
+    action_time: 2022-12-03 16:24:09.767213+00:00
+    user: 1
+    content_type: 8
+    object_id: '1'
+    object_repr: "Tel: +998901234567\r\nManzil: Toshkent Shahri, Yunusabod tumani
+      16A-uy\r\n\r\nSavol, etiroz yoki taklifing"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Contact"]}}]'
+- model: admin.logentry
+  pk: 13
+  fields:
+    action_time: 2022-12-03 16:27:54.809047+00:00
+    user: 1
+    content_type: 6
+    object_id: '3'
+    object_repr: "\U0001D419\U0001D41A\U0001D41F\U0001D41A\U0001D42B \U0001D406\U0001D41A\U0001D41F\U0001D42E\U0001D42B\U0001D428\U0001D42F"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Answer"]}}]'
+- model: admin.logentry
+  pk: 14
+  fields:
+    action_time: 2022-12-05 14:12:46.935813+00:00
+    user: 1
+    content_type: 9
+    object_id: '4'
+    object_repr: "\U0001F1F7\U0001F1FA Rus tili"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Name"]}}]'
+- model: admin.logentry
+  pk: 15
+  fields:
+    action_time: 2022-12-05 14:13:17.349101+00:00
+    user: 1
+    content_type: 9
+    object_id: '1'
+    object_repr: "\U0001F1FA\U0001F1F8 Ingliz tili"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Name"]}}]'
+- model: admin.logentry
+  pk: 16
+  fields:
+    action_time: 2022-12-05 14:14:35.849976+00:00
+    user: 1
+    content_type: 9
+    object_id: '3'
+    object_repr: "\U0001F1E8\U0001F1F3 Xitoy tili"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Name"]}}]'
+- model: admin.logentry
+  pk: 17
+  fields:
+    action_time: 2022-12-05 14:15:21.527906+00:00
+    user: 1
+    content_type: 9
+    object_id: '2'
+    object_repr: "\U0001F1F9\U0001F1F7 Turk tili"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Name"]}}]'
+- model: admin.logentry
+  pk: 18
+  fields:
+    action_time: 2022-12-05 14:19:25.630674+00:00
+    user: 1
+    content_type: 9
+    object_id: '5'
+    object_repr: "\U0001F1F8\U0001F1E6 Arab tili"
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 19
+  fields:
+    action_time: 2022-12-06 06:32:50.404162+00:00
+    user: 1
+    content_type: 9
+    object_id: '4'
+    object_repr: "\U0001F1F7\U0001F1FA Rus tili"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Description"]}}]'
+- model: admin.logentry
+  pk: 20
+  fields:
+    action_time: 2022-12-06 06:59:17.294496+00:00
+    user: 1
+    content_type: 9
+    object_id: '5'
+    object_repr: "\U0001F1F8\U0001F1E6 Arab tili"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Description"]}}]'
+- model: admin.logentry
+  pk: 21
+  fields:
+    action_time: 2022-12-06 06:59:50.324368+00:00
+    user: 1
+    content_type: 9
+    object_id: '4'
+    object_repr: "\U0001F1F7\U0001F1FA Rus tili"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Description"]}}]'
+- model: admin.logentry
+  pk: 22
+  fields:
+    action_time: 2022-12-06 07:01:48.715336+00:00
+    user: 1
+    content_type: 9
+    object_id: '3'
+    object_repr: "\U0001F1E8\U0001F1F3 Xitoy tili"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Description", "Image"]}}]'
+- model: admin.logentry
+  pk: 23
+  fields:
+    action_time: 2022-12-06 07:02:09.505220+00:00
+    user: 1
+    content_type: 9
+    object_id: '2'
+    object_repr: "\U0001F1F9\U0001F1F7 Turk tili"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Description"]}}]'
+- model: admin.logentry
+  pk: 24
+  fields:
+    action_time: 2022-12-06 07:02:26.265147+00:00
+    user: 1
+    content_type: 9
+    object_id: '1'
+    object_repr: "\U0001F1FA\U0001F1F8 Ingliz tili"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Description"]}}]'
+- model: admin.logentry
+  pk: 25
+  fields:
+    action_time: 2022-12-06 16:58:53.210068+00:00
+    user: 1
+    content_type: 7
+    object_id: '2'
+    object_repr: Settings object (2)
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 26
+  fields:
+    action_time: 2022-12-08 10:12:56.552766+00:00
+    user: 1
+    content_type: 17
+    object_id: '1'
+    object_repr: Bot so'zlari
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 27
+  fields:
+    action_time: 2022-12-08 10:13:38.527942+00:00
+    user: 1
+    content_type: 12
+    object_id: '1'
+    object_repr: "Assalomu alaykum!\r\n\r\nOnline maktabimizga hush kelibsiz!"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Start matni rus"]}}]'
+- model: admin.logentry
+  pk: 28
+  fields:
+    action_time: 2022-12-08 10:13:50.110998+00:00
+    user: 1
+    content_type: 11
+    object_id: '1'
+    object_repr: "<b>Can I enroll at Liberty University Online Academy if I live in
+      another country?</b>\r\n\r\nLiberty Un"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Ko''p beriladigan savollar rus"]}}]'
+- model: admin.logentry
+  pk: 29
+  fields:
+    action_time: 2022-12-08 10:14:02.619129+00:00
+    user: 1
+    content_type: 13
+    object_id: '1'
+    object_repr: English Academy
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Nomi rus", "Matn rus"]}}]'
+- model: admin.logentry
+  pk: 30
+  fields:
+    action_time: 2022-12-08 10:14:09.809036+00:00
+    user: 1
+    content_type: 8
+    object_id: '1'
+    object_repr: "Tel: +998901234567\r\nManzil: Toshkent Shahri, Yunusabod tumani
+      16A-uy\r\n\r\nSavol, etiroz yoki taklifing"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Aloqa ma''lumotlari rus"]}}]'
+- model: admin.logentry
+  pk: 31
+  fields:
+    action_time: 2022-12-08 10:14:58.680704+00:00
+    user: 1
+    content_type: 14
+    object_id: '2'
+    object_repr: Farrux Elomonov
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 32
+  fields:
+    action_time: 2022-12-08 10:14:58.688176+00:00
+    user: 1
+    content_type: 14
+    object_id: '4'
+    object_repr: .. ..
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 33
+  fields:
+    action_time: 2022-12-08 10:14:58.690439+00:00
+    user: 1
+    content_type: 14
+    object_id: '3'
+    object_repr: "\U0001D419\U0001D41A\U0001D41F\U0001D41A\U0001D42B \U0001D406\U0001D41A\U0001D41F\U0001D42E\U0001D42B\U0001D428\U0001D42F"
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 34
+  fields:
+    action_time: 2022-12-08 10:17:27.355599+00:00
+    user: 1
+    content_type: 17
+    object_id: '1'
+    object_repr: Bot so'zlari
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["O''zbek"]}}]'
+- model: admin.logentry
+  pk: 35
+  fields:
+    action_time: 2022-12-08 10:17:43.615848+00:00
+    user: 1
+    content_type: 17
+    object_id: '1'
+    object_repr: Bot so'zlari
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["O''zbek"]}}]'
+- model: admin.logentry
+  pk: 36
+  fields:
+    action_time: 2022-12-08 10:17:59.793571+00:00
+    user: 1
+    content_type: 14
+    object_id: '5'
+    object_repr: Farrux Elomonov
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 37
+  fields:
+    action_time: 2022-12-08 10:18:23.752412+00:00
+    user: 1
+    content_type: 14
+    object_id: '6'
+    object_repr: Farrux Elomonov
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 38
+  fields:
+    action_time: 2022-12-08 10:24:07.675252+00:00
+    user: 1
+    content_type: 17
+    object_id: '1'
+    object_repr: Bot so'zlari
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["O''zbek", "\u0420\u0443\u0441\u043a\u0438\u0439"]}}]'
+- model: admin.logentry
+  pk: 39
+  fields:
+    action_time: 2022-12-08 10:25:53.166031+00:00
+    user: 1
+    content_type: 9
+    object_id: '1'
+    object_repr: "\U0001F1FA\U0001F1F8 Ingliz tili"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Nomi rus", "Kurs haqida ma''lumot rus",
+      "Telegram guruhi demo dars uchun"]}}]'
+- model: admin.logentry
+  pk: 40
+  fields:
+    action_time: 2022-12-08 10:26:11.118636+00:00
+    user: 1
+    content_type: 9
+    object_id: '2'
+    object_repr: "\U0001F1F9\U0001F1F7 Turk tili"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Nomi rus", "Kurs haqida ma''lumot rus",
+      "Telegram guruhi demo dars uchun"]}}]'
+- model: admin.logentry
+  pk: 41
+  fields:
+    action_time: 2022-12-08 10:26:24.666965+00:00
+    user: 1
+    content_type: 9
+    object_id: '3'
+    object_repr: "\U0001F1E8\U0001F1F3 Xitoy tili"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Nomi rus", "Kurs haqida ma''lumot rus",
+      "Telegram guruhi demo dars uchun"]}}]'
+- model: admin.logentry
+  pk: 42
+  fields:
+    action_time: 2022-12-08 10:26:38.098713+00:00
+    user: 1
+    content_type: 9
+    object_id: '4'
+    object_repr: "\U0001F1F7\U0001F1FA Rus tili"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Nomi rus", "Kurs haqida ma''lumot rus",
+      "Telegram guruhi demo dars uchun"]}}]'
+- model: admin.logentry
+  pk: 43
+  fields:
+    action_time: 2022-12-08 10:26:46.707383+00:00
+    user: 1
+    content_type: 9
+    object_id: '4'
+    object_repr: "\U0001F1F7\U0001F1FA Rus tili"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Telegram guruhi demo dars uchun"]}}]'
+- model: admin.logentry
+  pk: 44
+  fields:
+    action_time: 2022-12-08 10:27:05.856987+00:00
+    user: 1
+    content_type: 9
+    object_id: '5'
+    object_repr: "\U0001F1F8\U0001F1E6 Arab tili"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Nomi rus", "Kurs haqida ma''lumot rus",
+      "Telegram guruhi demo dars uchun"]}}]'
+- model: admin.logentry
+  pk: 45
+  fields:
+    action_time: 2022-12-08 10:29:25.817262+00:00
+    user: 1
+    content_type: 7
+    object_id: '3'
+    object_repr: Settings object (3)
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 46
+  fields:
+    action_time: 2022-12-08 12:16:34.255419+00:00
+    user: 1
+    content_type: 17
+    object_id: '1'
+    object_repr: Bot so'zlari
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["\u0420\u0443\u0441\u043a\u0438\u0439"]}}]'
+- model: admin.logentry
+  pk: 47
+  fields:
+    action_time: 2022-12-10 07:29:11.723635+00:00
+    user: 1
+    content_type: 9
+    object_id: '3'
+    object_repr: "\U0001F1E8\U0001F1F3 Xitoy tili"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Kurs haqida ma''lumot o''zbek", "Nomi
+      rus", "Kurs haqida ma''lumot rus"]}}]'
+- model: admin.logentry
+  pk: 48
+  fields:
+    action_time: 2022-12-10 07:31:01.412670+00:00
+    user: 1
+    content_type: 9
+    object_id: '4'
+    object_repr: "\U0001F1F7\U0001F1FA Rus tili"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Kurs haqida ma''lumot o''zbek", "Nomi
+      rus", "Kurs haqida ma''lumot rus", "Telegram guruhi demo dars uchun"]}}]'
+- model: admin.logentry
+  pk: 49
+  fields:
+    action_time: 2022-12-10 07:42:45.358340+00:00
+    user: 1
+    content_type: 9
+    object_id: '5'
+    object_repr: "\U0001F1F8\U0001F1E6 Arab tili"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Kurs haqida ma''lumot o''zbek", "Nomi
+      rus", "Kurs haqida ma''lumot rus"]}}]'
+- model: admin.logentry
+  pk: 50
+  fields:
+    action_time: 2022-12-10 07:43:12.872816+00:00
+    user: 1
+    content_type: 9
+    object_id: '2'
+    object_repr: "\U0001F1F9\U0001F1F7 Turk tili"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Kurs haqida ma''lumot o''zbek", "Nomi
+      rus", "Kurs haqida ma''lumot rus"]}}]'
+- model: admin.logentry
+  pk: 51
+  fields:
+    action_time: 2022-12-10 07:43:39.016896+00:00
+    user: 1
+    content_type: 9
+    object_id: '1'
+    object_repr: "\U0001F1FA\U0001F1F8 Ingliz tili"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Kurs haqida ma''lumot o''zbek", "Nomi
+      rus", "Kurs haqida ma''lumot rus"]}}]'
+- model: admin.logentry
+  pk: 52
+  fields:
+    action_time: 2022-12-10 07:44:26.292833+00:00
+    user: 1
+    content_type: 9
+    object_id: '5'
+    object_repr: "\U0001F1F8\U0001F1E6 Arab tili"
+    action_flag: 2
+    change_message: '[]'
+- model: admin.logentry
+  pk: 53
+  fields:
+    action_time: 2022-12-10 14:22:18.617246+00:00
+    user: 1
+    content_type: 9
+    object_id: '4'
+    object_repr: "\U0001F1F7\U0001F1FA Rus tili"
+    action_flag: 2
+    change_message: '[]'
+- model: admin.logentry
+  pk: 54
+  fields:
+    action_time: 2022-12-10 14:31:00.133810+00:00
+    user: 1
+    content_type: 9
+    object_id: '5'
+    object_repr: "\U0001F1F8\U0001F1E6 Arab tili"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Kurs haqida ma''lumot o''zbek", "Kurs
+      haqida ma''lumot rus", "Telegram guruhi demo dars uchun"]}}]'
+- model: admin.logentry
+  pk: 55
+  fields:
+    action_time: 2022-12-10 14:33:26.527785+00:00
+    user: 1
+    content_type: 9
+    object_id: '4'
+    object_repr: "\U0001F1F7\U0001F1FA Rus tili"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Kurs haqida ma''lumot o''zbek", "Kurs
+      haqida ma''lumot rus"]}}]'
+- model: admin.logentry
+  pk: 56
+  fields:
+    action_time: 2022-12-10 14:34:05.539785+00:00
+    user: 1
+    content_type: 9
+    object_id: '3'
+    object_repr: "\U0001F1E8\U0001F1F3 Xitoy tili"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Kurs haqida ma''lumot o''zbek", "Kurs
+      haqida ma''lumot rus", "Telegram guruhi demo dars uchun"]}}]'
+- model: admin.logentry
+  pk: 57
+  fields:
+    action_time: 2022-12-10 14:34:42.097429+00:00
+    user: 1
+    content_type: 9
+    object_id: '2'
+    object_repr: "\U0001F1F9\U0001F1F7 Turk tili"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Kurs haqida ma''lumot o''zbek", "Kurs
+      haqida ma''lumot rus"]}}]'
+- model: admin.logentry
+  pk: 58
+  fields:
+    action_time: 2022-12-10 17:32:22.257223+00:00
+    user: 1
+    content_type: 18
+    object_id: '1'
+    object_repr: Rus tili kursimizga qabul boshlandi!
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 59
+  fields:
+    action_time: 2022-12-10 17:44:02.732007+00:00
+    user: 1
+    content_type: 12
+    object_id: '1'
+    object_repr: "Assalomu alaykum!\r\n\r\nOnline maktabimizga hush kelibsiz!"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Start matni rus"]}}]'
+- model: admin.logentry
+  pk: 60
+  fields:
+    action_time: 2022-12-10 18:24:03.414460+00:00
+    user: 1
+    content_type: 6
+    object_id: '6'
+    object_repr: Farrux Elomonov
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Xabar uchun Javob"]}}]'
+- model: admin.logentry
+  pk: 61
+  fields:
+    action_time: 2022-12-15 15:15:04.496854+00:00
+    user: 1
+    content_type: 8
+    object_id: '2'
+    object_repr: https://t.me/os_byLuiza
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 62
+  fields:
+    action_time: 2022-12-15 15:17:19.952662+00:00
+    user: 1
+    content_type: 8
+    object_id: '1'
+    object_repr: "https://t.me/os_byLuiza\r\n\r\nSavol, etiroz yoki taklifingizni
+      shu yerga yozing. Tez orada siz bilan bo"
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Aloqa ma''lumotlari o''zbek", "Aloqa
+      ma''lumotlari rus"]}}]'
+- model: admin.logentry
+  pk: 63
+  fields:
+    action_time: 2022-12-15 15:35:16.076344+00:00
+    user: 1
+    content_type: 13
+    object_id: '2'
+    object_repr: Luiza
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: auth.permission
+  pk: 1
+  fields:
+    name: Can add log entry
+    content_type: 1
+    codename: add_logentry
+- model: auth.permission
+  pk: 2
+  fields:
+    name: Can change log entry
+    content_type: 1
+    codename: change_logentry
+- model: auth.permission
+  pk: 3
+  fields:
+    name: Can delete log entry
+    content_type: 1
+    codename: delete_logentry
+- model: auth.permission
+  pk: 4
+  fields:
+    name: Can view log entry
+    content_type: 1
+    codename: view_logentry
+- model: auth.permission
+  pk: 5
+  fields:
+    name: Can add permission
+    content_type: 2
+    codename: add_permission
+- model: auth.permission
+  pk: 6
+  fields:
+    name: Can change permission
+    content_type: 2
+    codename: change_permission
+- model: auth.permission
+  pk: 7
+  fields:
+    name: Can delete permission
+    content_type: 2
+    codename: delete_permission
+- model: auth.permission
+  pk: 8
+  fields:
+    name: Can view permission
+    content_type: 2
+    codename: view_permission
+- model: auth.permission
+  pk: 9
+  fields:
+    name: Can add group
+    content_type: 3
+    codename: add_group
+- model: auth.permission
+  pk: 10
+  fields:
+    name: Can change group
+    content_type: 3
+    codename: change_group
+- model: auth.permission
+  pk: 11
+  fields:
+    name: Can delete group
+    content_type: 3
+    codename: delete_group
+- model: auth.permission
+  pk: 12
+  fields:
+    name: Can view group
+    content_type: 3
+    codename: view_group
+- model: auth.permission
+  pk: 13
+  fields:
+    name: Can add content type
+    content_type: 4
+    codename: add_contenttype
+- model: auth.permission
+  pk: 14
+  fields:
+    name: Can change content type
+    content_type: 4
+    codename: change_contenttype
+- model: auth.permission
+  pk: 15
+  fields:
+    name: Can delete content type
+    content_type: 4
+    codename: delete_contenttype
+- model: auth.permission
+  pk: 16
+  fields:
+    name: Can view content type
+    content_type: 4
+    codename: view_contenttype
+- model: auth.permission
+  pk: 17
+  fields:
+    name: Can add session
+    content_type: 5
+    codename: add_session
+- model: auth.permission
+  pk: 18
+  fields:
+    name: Can change session
+    content_type: 5
+    codename: change_session
+- model: auth.permission
+  pk: 19
+  fields:
+    name: Can delete session
+    content_type: 5
+    codename: delete_session
+- model: auth.permission
+  pk: 20
+  fields:
+    name: Can view session
+    content_type: 5
+    codename: view_session
+- model: auth.permission
+  pk: 21
+  fields:
+    name: Can add messages
+    content_type: 6
+    codename: add_messages
+- model: auth.permission
+  pk: 22
+  fields:
+    name: Can change messages
+    content_type: 6
+    codename: change_messages
+- model: auth.permission
+  pk: 23
+  fields:
+    name: Can delete messages
+    content_type: 6
+    codename: delete_messages
+- model: auth.permission
+  pk: 24
+  fields:
+    name: Can view messages
+    content_type: 6
+    codename: view_messages
+- model: auth.permission
+  pk: 25
+  fields:
+    name: Can add settings
+    content_type: 7
+    codename: add_settings
+- model: auth.permission
+  pk: 26
+  fields:
+    name: Can change settings
+    content_type: 7
+    codename: change_settings
+- model: auth.permission
+  pk: 27
+  fields:
+    name: Can delete settings
+    content_type: 7
+    codename: delete_settings
+- model: auth.permission
+  pk: 28
+  fields:
+    name: Can view settings
+    content_type: 7
+    codename: view_settings
+- model: auth.permission
+  pk: 29
+  fields:
+    name: Can add contact info
+    content_type: 8
+    codename: add_contactinfo
+- model: auth.permission
+  pk: 30
+  fields:
+    name: Can change contact info
+    content_type: 8
+    codename: change_contactinfo
+- model: auth.permission
+  pk: 31
+  fields:
+    name: Can delete contact info
+    content_type: 8
+    codename: delete_contactinfo
+- model: auth.permission
+  pk: 32
+  fields:
+    name: Can view contact info
+    content_type: 8
+    codename: view_contactinfo
+- model: auth.permission
+  pk: 33
+  fields:
+    name: Can add courses
+    content_type: 9
+    codename: add_courses
+- model: auth.permission
+  pk: 34
+  fields:
+    name: Can change courses
+    content_type: 9
+    codename: change_courses
+- model: auth.permission
+  pk: 35
+  fields:
+    name: Can delete courses
+    content_type: 9
+    codename: delete_courses
+- model: auth.permission
+  pk: 36
+  fields:
+    name: Can view courses
+    content_type: 9
+    codename: view_courses
+- model: auth.permission
+  pk: 37
+  fields:
+    name: Can add courses description
+    content_type: 10
+    codename: add_coursesdescription
+- model: auth.permission
+  pk: 38
+  fields:
+    name: Can change courses description
+    content_type: 10
+    codename: change_coursesdescription
+- model: auth.permission
+  pk: 39
+  fields:
+    name: Can delete courses description
+    content_type: 10
+    codename: delete_coursesdescription
+- model: auth.permission
+  pk: 40
+  fields:
+    name: Can view courses description
+    content_type: 10
+    codename: view_coursesdescription
+- model: auth.permission
+  pk: 41
+  fields:
+    name: Can add faq
+    content_type: 11
+    codename: add_faq
+- model: auth.permission
+  pk: 42
+  fields:
+    name: Can change faq
+    content_type: 11
+    codename: change_faq
+- model: auth.permission
+  pk: 43
+  fields:
+    name: Can delete faq
+    content_type: 11
+    codename: delete_faq
+- model: auth.permission
+  pk: 44
+  fields:
+    name: Can view faq
+    content_type: 11
+    codename: view_faq
+- model: auth.permission
+  pk: 45
+  fields:
+    name: Can add start text
+    content_type: 12
+    codename: add_starttext
+- model: auth.permission
+  pk: 46
+  fields:
+    name: Can change start text
+    content_type: 12
+    codename: change_starttext
+- model: auth.permission
+  pk: 47
+  fields:
+    name: Can delete start text
+    content_type: 12
+    codename: delete_starttext
+- model: auth.permission
+  pk: 48
+  fields:
+    name: Can view start text
+    content_type: 12
+    codename: view_starttext
+- model: auth.permission
+  pk: 49
+  fields:
+    name: Can add about
+    content_type: 13
+    codename: add_about
+- model: auth.permission
+  pk: 50
+  fields:
+    name: Can change about
+    content_type: 13
+    codename: change_about
+- model: auth.permission
+  pk: 51
+  fields:
+    name: Can delete about
+    content_type: 13
+    codename: delete_about
+- model: auth.permission
+  pk: 52
+  fields:
+    name: Can view about
+    content_type: 13
+    codename: view_about
+- model: auth.permission
+  pk: 53
+  fields:
+    name: Can add Foydalanuvchi
+    content_type: 14
+    codename: add_user
+- model: auth.permission
+  pk: 54
+  fields:
+    name: Can change Foydalanuvchi
+    content_type: 14
+    codename: change_user
+- model: auth.permission
+  pk: 55
+  fields:
+    name: Can delete Foydalanuvchi
+    content_type: 14
+    codename: delete_user
+- model: auth.permission
+  pk: 56
+  fields:
+    name: Can view Foydalanuvchi
+    content_type: 14
+    codename: view_user
+- model: auth.permission
+  pk: 57
+  fields:
+    name: Can add contact
+    content_type: 15
+    codename: add_contact
+- model: auth.permission
+  pk: 58
+  fields:
+    name: Can change contact
+    content_type: 15
+    codename: change_contact
+- model: auth.permission
+  pk: 59
+  fields:
+    name: Can delete contact
+    content_type: 15
+    codename: delete_contact
+- model: auth.permission
+  pk: 60
+  fields:
+    name: Can view contact
+    content_type: 15
+    codename: view_contact
+- model: auth.permission
+  pk: 61
+  fields:
+    name: Can add Kusrga yozilgan
+    content_type: 16
+    codename: add_register
+- model: auth.permission
+  pk: 62
+  fields:
+    name: Can change Kusrga yozilgan
+    content_type: 16
+    codename: change_register
+- model: auth.permission
+  pk: 63
+  fields:
+    name: Can delete Kusrga yozilgan
+    content_type: 16
+    codename: delete_register
+- model: auth.permission
+  pk: 64
+  fields:
+    name: Can view Kusrga yozilgan
+    content_type: 16
+    codename: view_register
+- model: auth.permission
+  pk: 65
+  fields:
+    name: Can add So'z
+    content_type: 17
+    codename: add_language
+- model: auth.permission
+  pk: 66
+  fields:
+    name: Can change So'z
+    content_type: 17
+    codename: change_language
+- model: auth.permission
+  pk: 67
+  fields:
+    name: Can delete So'z
+    content_type: 17
+    codename: delete_language
+- model: auth.permission
+  pk: 68
+  fields:
+    name: Can view So'z
+    content_type: 17
+    codename: view_language
+- model: auth.permission
+  pk: 69
+  fields:
+    name: Can add Xabar yuborish
+    content_type: 18
+    codename: add_messages
+- model: auth.permission
+  pk: 70
+  fields:
+    name: Can change Xabar yuborish
+    content_type: 18
+    codename: change_messages
+- model: auth.permission
+  pk: 71
+  fields:
+    name: Can delete Xabar yuborish
+    content_type: 18
+    codename: delete_messages
+- model: auth.permission
+  pk: 72
+  fields:
+    name: Can view Xabar yuborish
+    content_type: 18
+    codename: view_messages
+- model: contenttypes.contenttype
+  pk: 1
+  fields:
+    app_label: admin
+    model: logentry
+- model: contenttypes.contenttype
+  pk: 2
+  fields:
+    app_label: auth
+    model: permission
+- model: contenttypes.contenttype
+  pk: 3
+  fields:
+    app_label: auth
+    model: group
+- model: contenttypes.contenttype
+  pk: 4
+  fields:
+    app_label: contenttypes
+    model: contenttype
+- model: contenttypes.contenttype
+  pk: 5
+  fields:
+    app_label: sessions
+    model: session
+- model: contenttypes.contenttype
+  pk: 6
+  fields:
+    app_label: bot
+    model: messages
+- model: contenttypes.contenttype
+  pk: 7
+  fields:
+    app_label: bot
+    model: settings
+- model: contenttypes.contenttype
+  pk: 8
+  fields:
+    app_label: data
+    model: contactinfo
+- model: contenttypes.contenttype
+  pk: 9
+  fields:
+    app_label: data
+    model: courses
+- model: contenttypes.contenttype
+  pk: 10
+  fields:
+    app_label: data
+    model: coursesdescription
+- model: contenttypes.contenttype
+  pk: 11
+  fields:
+    app_label: data
+    model: faq
+- model: contenttypes.contenttype
+  pk: 12
+  fields:
+    app_label: data
+    model: starttext
+- model: contenttypes.contenttype
+  pk: 13
+  fields:
+    app_label: data
+    model: about
+- model: contenttypes.contenttype
+  pk: 14
+  fields:
+    app_label: users
+    model: user
+- model: contenttypes.contenttype
+  pk: 15
+  fields:
+    app_label: users
+    model: contact
+- model: contenttypes.contenttype
+  pk: 16
+  fields:
+    app_label: bot
+    model: register
+- model: contenttypes.contenttype
+  pk: 17
+  fields:
+    app_label: data
+    model: language
+- model: contenttypes.contenttype
+  pk: 18
+  fields:
+    app_label: data
+    model: messages
+- model: sessions.session
+  pk: 1qq7dvay0929uvumscmt8bzamgf6kh7l
+  fields:
+    session_data: .eJxVjEEOwiAQRe_C2hAo0IJL956BzDCDVA0kpV0Z765NutDtf-_9l4iwrSVunZc4kzgLLU6_G0J6cN0B3aHemkytrsuMclfkQbu8NuLn5XD_Dgr08q2tH2FCOyiwTufBGw8cKIFF5y0FVErnZFAFUpmNY0afM5rRhzCRsVq8P-H6OAk:1p1VyZ:1BI75-tbLvRdFOgqyJIHdCb7SvKw9ZTRNd-xxiTGTdM
+    expire_date: 2022-12-17 17:06:55.734338+00:00
+- model: sessions.session
+  pk: 8desj1ii021wmylt5mow5wk3lzpwv837
+  fields:
+    session_data: .eJxVjEEOwiAQRe_C2hAo0IJL956BzDCDVA0kpV0Z765NutDtf-_9l4iwrSVunZc4kzgLLU6_G0J6cN0B3aHemkytrsuMclfkQbu8NuLn5XD_Dgr08q2tH2FCOyiwTufBGw8cKIFF5y0FVErnZFAFUpmNY0afM5rRhzCRsVq8P-H6OAk:1pD6uI:7WFDvLwK3GlrdjKLVROGbPlx7kriKPHXbC5KjAqKTC0
+    expire_date: 2023-01-18 16:46:26.808949+00:00
+- model: sessions.session
+  pk: ez4mb9s5lnzng53z9mgjb8twvebvo1ax
+  fields:
+    session_data: .eJxVjEEOwiAQRe_C2hAo0IJL956BzDCDVA0kpV0Z765NutDtf-_9l4iwrSVunZc4kzgLLU6_G0J6cN0B3aHemkytrsuMclfkQbu8NuLn5XD_Dgr08q2tH2FCOyiwTufBGw8cKIFF5y0FVErnZFAFUpmNY0afM5rRhzCRsVq8P-H6OAk:1ozEgw:IDiFie4Xnyh3nRwxBy96TcFk7U1uUeiENKnaRIX4SvQ
+    expire_date: 2022-12-11 10:15:18.925920+00:00
+- model: sessions.session
+  pk: l0edcq3xwdjfwq03ws12xfcugu83tujf
+  fields:
+    session_data: .eJxVjEEOwiAQRe_C2hAo0IJL956BzDCDVA0kpV0Z765NutDtf-_9l4iwrSVunZc4kzgLLU6_G0J6cN0B3aHemkytrsuMclfkQbu8NuLn5XD_Dgr08q2tH2FCOyiwTufBGw8cKIFF5y0FVErnZFAFUpmNY0afM5rRhzCRsVq8P-H6OAk:1p1VL5:lVjjUHxxa4MiE4FKRBVDyE4uVmS1kygnfevWrGJOHPg
+    expire_date: 2022-12-17 16:26:07.010467+00:00
+- model: sessions.session
+  pk: n3tc5dyub3bkss973aiwvkj5hk1y6zek
+  fields:
+    session_data: .eJxVjEEOwiAQRe_C2hAo0IJL956BzDCDVA0kpV0Z765NutDtf-_9l4iwrSVunZc4kzgLLU6_G0J6cN0B3aHemkytrsuMclfkQbu8NuLn5XD_Dgr08q2tH2FCOyiwTufBGw8cKIFF5y0FVErnZFAFUpmNY0afM5rRhzCRsVq8P-H6OAk:1p7KSv:BU2owpDzQdljZsiY2ZdCKMhIoEaga5wQK1H3gTvpL8o
+    expire_date: 2023-01-02 18:02:17.209869+00:00
+- model: sessions.session
+  pk: p6bmlgl7dhh9tb756gq5r7yrcn2v0j5t
+  fields:
+    session_data: .eJxVjEEOwiAQRe_C2hAo0IJL956BzDCDVA0kpV0Z765NutDtf-_9l4iwrSVunZc4kzgLLU6_G0J6cN0B3aHemkytrsuMclfkQbu8NuLn5XD_Dgr08q2tH2FCOyiwTufBGw8cKIFF5y0FVErnZFAFUpmNY0afM5rRhzCRsVq8P-H6OAk:1p43zh:cC-Y-MgbQyLdY5IwKf32ZI8ovi5Fj-uJN8vH92ad_Fc
+    expire_date: 2022-12-24 17:50:37.930468+00:00
+- model: bot.messages
+  pk: 1
+  fields:
+    user: null
+    message_id: 2580
+    message: asd
+    answer: null
+    create_at: 2022-11-27 10:19:26.041801+00:00
+    is_answer: false
+- model: bot.messages
+  pk: 2
+  fields:
+    user: null
+    message_id: 2592
+    message: hddhe
+    answer: null
+    create_at: 2022-11-27 10:36:42.933733+00:00
+    is_answer: false
+- model: bot.messages
+  pk: 3
+  fields:
+    user: null
+    message_id: 42
+    message: test
+    answer: wqeq
+    create_at: 2022-12-03 16:26:55.104612+00:00
+    is_answer: true
+- model: bot.messages
+  pk: 4
+  fields:
+    user: null
+    message_id: 175
+    message: asd
+    answer: null
+    create_at: 2022-12-06 16:59:47.666261+00:00
+    is_answer: false
+- model: bot.messages
+  pk: 5
+  fields:
+    user: 7
+    message_id: 615
+    message: Assalomu alaykum
+    answer: null
+    create_at: 2022-12-10 17:46:30.749426+00:00
+    is_answer: false
+- model: bot.messages
+  pk: 6
+  fields:
+    user: 7
+    message_id: 622
+    message: salom
+    answer: Vo alaykum salom.
+    create_at: 2022-12-10 18:23:45.237864+00:00
+    is_answer: true
+- model: bot.settings
+  pk: 3
+  fields:
+    admin: 7
+- model: bot.register
+  pk: 1
+  fields:
+    user: null
+    course: 1
+    name: Farrux
+    sex: man
+    address: Toshkent shahri
+    phone: '+998909404997'
+    created_at: 2022-12-03 16:06:20.308536+00:00
+    username: Farruxnet
+    status: true
+- model: bot.register
+  pk: 2
+  fields:
+    user: null
+    course: 1
+    name: '4646456'
+    sex: null
+    address: null
+    phone: null
+    created_at: 2022-12-03 16:07:42.798877+00:00
+    username: Farruxnet
+    status: false
+- model: bot.register
+  pk: 3
+  fields:
+    user: null
+    course: 4
+    name: Zafar1
+    sex: man
+    address: toshkent
+    phone: '+998914676197'
+    created_at: 2022-12-05 14:19:38.907258+00:00
+    username: zafargafurov
+    status: true
+- model: bot.register
+  pk: 7
+  fields:
+    user: null
+    course: 2
+    name: null
+    sex: null
+    address: null
+    phone: null
+    created_at: 2022-12-06 18:32:54.638102+00:00
+    username: null
+    status: false
+- model: bot.register
+  pk: 8
+  fields:
+    user: null
+    course: 2
+    name: null
+    sex: null
+    address: null
+    phone: null
+    created_at: 2022-12-06 18:35:22.557033+00:00
+    username: null
+    status: false
+- model: bot.register
+  pk: 9
+  fields:
+    user: 8
+    course: 3
+    name: qw
+    sex: man
+    address: toshkent
+    phone: '+998914676197'
+    created_at: 2022-12-10 06:01:46.494280+00:00
+    username: zafargafurov
+    status: true
+- model: bot.register
+  pk: 10
+  fields:
+    user: 8
+    course: 4
+    name: test1
+    sex: man
+    address: toshkent
+    phone: '+998991234567'
+    created_at: 2022-12-10 07:40:11.712973+00:00
+    username: zafargafurov
+    status: true
+- model: bot.register
+  pk: 11
+  fields:
+    user: 7
+    course: 3
+    name: Farrux
+    sex: man
+    address: Toshkent
+    phone: '+998909404997'
+    created_at: 2022-12-10 14:00:48.718193+00:00
+    username: Farruxnet
+    status: true
+- model: bot.register
+  pk: 12
+  fields:
+    user: 8
+    course: 5
+    name: e
+    sex: man
+    address: toshkent
+    phone: '+998914676197'
+    created_at: 2022-12-10 14:31:40.484500+00:00
+    username: zafargafurov
+    status: true
+- model: bot.register
+  pk: 13
+  fields:
+    user: 8
+    course: 4
+    name: s
+    sex: man
+    address: qw
+    phone: q
+    created_at: 2022-12-10 16:13:36.378293+00:00
+    username: zafargafurov
+    status: true
+- model: bot.register
+  pk: 14
+  fields:
+    user: 12
+    course: 4
+    name: Луиза
+    sex: woman
+    address: Ташкент
+    phone: '991010505'
+    created_at: 2022-12-10 17:23:55.099807+00:00
+    username: null
+    status: true
+- model: bot.register
+  pk: 15
+  fields:
+    user: 12
+    course: 3
+    name: luiza
+    sex: woman
+    address: ташкент
+    phone: '+998991010505'
+    created_at: 2022-12-10 17:28:07.312499+00:00
+    username: null
+    status: true
+- model: bot.register
+  pk: 16
+  fields:
+    user: 14
+    course: 4
+    name: Madina
+    sex: woman
+    address: Toshkent
+    phone: '998977829949'
+    created_at: 2022-12-15 15:39:59.160724+00:00
+    username: madikaa
+    status: true
+- model: bot.register
+  pk: 17
+  fields:
+    user: 18
+    course: 4
+    name: null
+    sex: null
+    address: null
+    phone: null
+    created_at: 2023-01-02 12:06:05.434896+00:00
+    username: null
+    status: false
+- model: bot.register
+  pk: 18
+  fields:
+    user: 21
+    course: 4
+    name: null
+    sex: null
+    address: null
+    phone: null
+    created_at: 2023-01-03 10:03:27.899094+00:00
+    username: null
+    status: false
+- model: bot.register
+  pk: 20
+  fields:
+    user: 25
+    course: 4
+    name: Ziyodulla
+    sex: man
+    address: gulobod kochasi
+    phone: '998480508'
+    created_at: 2023-01-04 09:35:52.759560+00:00
+    username: null
+    status: true
+- model: bot.register
+  pk: 22
+  fields:
+    user: 28
+    course: 4
+    name: Зулайхо
+    sex: woman
+    address: Олмазор тумани гулзор17
+    phone: '998999052114'
+    created_at: 2023-01-04 14:00:43.747203+00:00
+    username: Zuleyhakhodja
+    status: true
+- model: bot.register
+  pk: 23
+  fields:
+    user: 29
+    course: 4
+    name: Sirojiddin
+    sex: man
+    address: Yangiyoʻl
+    phone: '946533404'
+    created_at: 2023-01-04 15:26:29.599507+00:00
+    username: uspakoy523
+    status: true
+- model: bot.register
+  pk: 24
+  fields:
+    user: 32
+    course: 4
+    name: null
+    sex: null
+    address: null
+    phone: null
+    created_at: 2023-01-05 02:15:34.739554+00:00
+    username: null
+    status: false
+- model: bot.register
+  pk: 25
+  fields:
+    user: 33
+    course: 4
+    name: Humoyun
+    sex: man
+    address: Namangan viloyati Yangiqo'rg'on tumani
+    phone: '950258151'
+    created_at: 2023-01-05 08:40:32.496895+00:00
+    username: Khumoyun_151
+    status: true
+- model: bot.register
+  pk: 27
+  fields:
+    user: 35
+    course: 4
+    name: Nargiza
+    sex: woman
+    address: Puli oldindan to'lanadmi
+    phone: '+998935606641'
+    created_at: 2023-01-05 12:24:03.015876+00:00
+    username: null
+    status: true
+- model: bot.register
+  pk: 28
+  fields:
+    user: 37
+    course: 4
+    name: Saidjon
+    sex: man
+    address: Samarqand viloyati
+    phone: '990380801'
+    created_at: 2023-01-05 14:16:09.107798+00:00
+    username: Jalolov_S_R
+    status: true
+- model: bot.register
+  pk: 29
+  fields:
+    user: 39
+    course: 4
+    name: Саида
+    sex: woman
+    address: Ташкент
+    phone: '+998946119619'
+    created_at: 2023-01-05 15:35:34.724395+00:00
+    username: null
+    status: true
+- model: bot.register
+  pk: 30
+  fields:
+    user: 40
+    course: 4
+    name: Саодат
+    sex: woman
+    address: Хоразм
+    phone: '998907377736'
+    created_at: 2023-01-05 18:57:52.140851+00:00
+    username: saodat1987
+    status: true
+- model: bot.register
+  pk: 31
+  fields:
+    user: 41
+    course: 4
+    name: Акмал
+    sex: man
+    address: Хоразм
+    phone: '998999653990'
+    created_at: 2023-01-05 19:07:22.339459+00:00
+    username: null
+    status: true
+- model: bot.register
+  pk: 32
+  fields:
+    user: 44
+    course: 4
+    name: Nozima
+    sex: woman
+    address: Farg'ona
+    phone: '907876990'
+    created_at: 2023-01-06 10:23:06.007801+00:00
+    username: null
+    status: true
+- model: bot.register
+  pk: 33
+  fields:
+    user: 46
+    course: 5
+    name: null
+    sex: null
+    address: null
+    phone: null
+    created_at: 2023-01-06 13:46:03.736985+00:00
+    username: null
+    status: false
+- model: bot.register
+  pk: 36
+  fields:
+    user: 27
+    course: 4
+    name: Мохларой
+    sex: woman
+    address: null
+    phone: null
+    created_at: 2023-01-07 13:31:45.205502+00:00
+    username: Adhamova_2811
+    status: false
+- model: bot.register
+  pk: 40
+  fields:
+    user: 24
+    course: 4
+    name: null
+    sex: null
+    address: null
+    phone: null
+    created_at: 2023-01-07 16:47:56.219173+00:00
+    username: null
+    status: false
+- model: bot.register
+  pk: 41
+  fields:
+    user: 50
+    course: 4
+    name: null
+    sex: null
+    address: null
+    phone: null
+    created_at: 2023-01-08 04:55:58.526630+00:00
+    username: null
+    status: false
+- model: bot.register
+  pk: 42
+  fields:
+    user: 51
+    course: 1
+    name: null
+    sex: null
+    address: null
+    phone: null
+    created_at: 2023-01-08 11:31:07.914261+00:00
+    username: null
+    status: false
+- model: bot.register
+  pk: 43
+  fields:
+    user: 53
+    course: 4
+    name: null
+    sex: null
+    address: null
+    phone: null
+    created_at: 2023-01-08 12:11:26.148389+00:00
+    username: null
+    status: false
+- model: bot.register
+  pk: 44
+  fields:
+    user: 55
+    course: 4
+    name: null
+    sex: null
+    address: null
+    phone: null
+    created_at: 2023-01-09 13:51:39.323228+00:00
+    username: null
+    status: false
+- model: bot.register
+  pk: 45
+  fields:
+    user: 57
+    course: 4
+    name: Maxliyo
+    sex: woman
+    address: Andijon shaxar Tutzor kucha 35
+    phone: 97/751-03-33
+    created_at: 2023-01-09 17:22:00.499311+00:00
+    username: null
+    status: true
+- model: bot.register
+  pk: 46
+  fields:
+    user: 59
+    course: 4
+    name: Abdulaziz
+    sex: man
+    address: Namangan
+    phone: '945005258'
+    created_at: 2023-01-09 18:09:07.438275+00:00
+    username: Axmadaliyev_Abdulaziz
+    status: true
+- model: bot.register
+  pk: 47
+  fields:
+    user: 60
+    course: 4
+    name: Лола
+    sex: woman
+    address: Ташкент
+    phone: '998998212888'
+    created_at: 2023-01-10 04:09:15.281382+00:00
+    username: null
+    status: true
+- model: bot.register
+  pk: 48
+  fields:
+    user: 63
+    course: 4
+    name: Muzaffar
+    sex: man
+    address: Namangan shahar
+    phone: '982601444'
+    created_at: 2023-01-10 16:09:18.170688+00:00
+    username: null
+    status: true
+- model: bot.register
+  pk: 50
+  fields:
+    user: 64
+    course: 4
+    name: null
+    sex: null
+    address: null
+    phone: null
+    created_at: 2023-01-11 02:38:02.239298+00:00
+    username: null
+    status: false
+- model: bot.register
+  pk: 51
+  fields:
+    user: 66
+    course: 4
+    name: Сайёра
+    sex: woman
+    address: Андижон шахар
+    phone: null
+    created_at: 2023-01-11 09:33:02.204461+00:00
+    username: Gunesh96
+    status: false
+- model: bot.register
+  pk: 52
+  fields:
+    user: 67
+    course: 4
+    name: null
+    sex: null
+    address: null
+    phone: null
+    created_at: 2023-01-11 10:22:29.618726+00:00
+    username: null
+    status: false
+- model: bot.register
+  pk: 53
+  fields:
+    user: 69
+    course: 4
+    name: null
+    sex: null
+    address: null
+    phone: null
+    created_at: 2023-01-11 16:14:00.916136+00:00
+    username: null
+    status: false
+- model: bot.register
+  pk: 54
+  fields:
+    user: 74
+    course: 4
+    name: Ойгул
+    sex: woman
+    address: Тошкент шахар Учтепа тумани
+    phone: 93 111 10 71
+    created_at: 2023-01-13 12:55:28.451292+00:00
+    username: null
+    status: true
+- model: bot.register
+  pk: 55
+  fields:
+    user: 72
+    course: 4
+    name: Dilfuza
+    sex: woman
+    address: Farg'ona shahar
+    phone: 998 91 324 67 98
+    created_at: 2023-01-13 18:11:19.903278+00:00
+    username: UrinboyevaDilfuza
+    status: true
+- model: bot.register
+  pk: 57
+  fields:
+    user: 33
+    course: 4
+    name: Humoyun
+    sex: man
+    address: Namangan viloyati yangiqurgan
+    phone: '998945043637'
+    created_at: 2023-01-14 09:51:11.689975+00:00
+    username: Khumoyun_151
+    status: true
+- model: bot.register
+  pk: 58
+  fields:
+    user: 72
+    course: 4
+    name: Dilfuza
+    sex: woman
+    address: Farg'ona viloyati Farg'ona shahar
+    phone: '998913246798'
+    created_at: 2023-01-15 10:31:15.013746+00:00
+    username: UrinboyevaDilfuza
+    status: true
+- model: bot.register
+  pk: 59
+  fields:
+    user: 77
+    course: 4
+    name: Iskandar
+    sex: man
+    address: Toshkent shahar
+    phone: 97 409 92 98
+    created_at: 2023-01-15 13:53:54.926662+00:00
+    username: operr98
+    status: true
+- model: bot.register
+  pk: 60
+  fields:
+    user: 82
+    course: 4
+    name: Но я киргизка
+    sex: woman
+    address: Кыргызстан
+    phone: null
+    created_at: 2023-01-19 07:32:39.540594+00:00
+    username: null
+    status: false
+- model: bot.register
+  pk: 61
+  fields:
+    user: 83
+    course: 4
+    name: Сожида
+    sex: woman
+    address: null
+    phone: null
+    created_at: 2023-01-21 07:49:17.887731+00:00
+    username: Fashion_storeUZB
+    status: false
+- model: bot.register
+  pk: 62
+  fields:
+    user: 85
+    course: 4
+    name: null
+    sex: null
+    address: null
+    phone: null
+    created_at: 2023-01-26 02:28:16.521791+00:00
+    username: null
+    status: false
+- model: bot.register
+  pk: 65
+  fields:
+    user: 86
+    course: 4
+    name: null
+    sex: null
+    address: null
+    phone: null
+    created_at: 2023-01-26 09:35:04.930197+00:00
+    username: null
+    status: false
+- model: bot.register
+  pk: 66
+  fields:
+    user: 88
+    course: 4
+    name: Alisher
+    sex: man
+    address: Xorazim
+    phone: '998941129555'
+    created_at: 2023-01-28 09:30:29.190833+00:00
+    username: null
+    status: true
+- model: bot.register
+  pk: 67
+  fields:
+    user: 89
+    course: 4
+    name: Zilola
+    sex: woman
+    address: Toshkend
+    phone: '998931961702'
+    created_at: 2023-01-28 11:43:15.271030+00:00
+    username: shukrona_17s
+    status: true
+- model: bot.register
+  pk: 68
+  fields:
+    user: 89
+    course: 5
+    name: Zilola
+    sex: woman
+    address: Toshkent
+    phone: '998931961702'
+    created_at: 2023-01-28 17:07:58.495842+00:00
+    username: shukrona_17s
+    status: true
+- model: bot.register
+  pk: 69
+  fields:
+    user: 94
+    course: 4
+    name: Ibragimov shaxzod
+    sex: man
+    address: Toshkent viloyati bekabod tumani
+    phone: '946269719'
+    created_at: 2023-01-29 12:22:42.408219+00:00
+    username: null
+    status: true
+- model: bot.register
+  pk: 71
+  fields:
+    user: 96
+    course: 4
+    name: Нилуфар
+    sex: woman
+    address: Тошкент шахар
+    phone: '906352015'
+    created_at: 2023-01-30 09:32:40.314523+00:00
+    username: null
+    status: true
+- model: bot.register
+  pk: 72
+  fields:
+    user: 95
+    course: 4
+    name: Behzodjon
+    sex: man
+    address: Samarqand
+    phone: '998937217301'
+    created_at: 2023-02-01 19:02:59.308387+00:00
+    username: Behzodjon0101
+    status: true
+- model: data.about
+  pk: 1
+  fields:
+    name: English Academy
+    text: "English Academy is an interactive, online course that cultivates children’s
+      interest in English language learning. Students from primary school follow the
+      story of children and their teachers as they communicate in reading, writing,
+      listening, and speaking.\r\n\r\nThe course is designed for young learners, incorporating
+      cross-curricular and 21st-century skills content and exercises targeted to each
+      grade level.\r\n\r\n@tbh_agbot"
+    name_ru: English Academy
+    text_ru: "English Academy is an interactive, online course that cultivates children’s
+      interest in English language learning. Students from primary school follow the
+      story of children and their teachers as they communicate in reading, writing,
+      listening, and speaking.\r\n\r\nThe course is designed for young learners, incorporating
+      cross-curricular and 21st-century skills content and exercises targeted to each
+      grade level.\r\n\r\n@tbh_agbot"
+    image: images/english.jpg
+- model: data.about
+  pk: 2
+  fields:
+    name: Luiza
+    text: "+ 500 талаба\r\nУйдан чиқмасдан биз билан тилларни ўрганинг!\r\nҳар бир
+      талабага individual ёндашув!\r\nюқори малакали ўқитувчилар!\r\nБиз билан ишлаш
+      осон ва тез!"
+    name_ru: Луиза
+    text_ru: "+500 учеников \r\nУчите языки вместе с нами не выходя из дома! \r\nИндивидуальный
+      подход к каждому ученику! \r\nС нами легко и быстро!"
+    image: images/The_Bird_of_hapiness-2.png
+- model: data.language
+  pk: 1
+  fields:
+    oz:
+      faq: Ko'p beriladigan savollar
+      man: Erkak
+      sex: Jinsingiz?
+      back: Orqaga
+      home: Bosh sahifa
+      name: Ismingiz?
+      next: Kiyingi
+      about: Biz haqimizda
+      error: Xatolik yuz berdi!
+      group: Guruhga qo'shilish
+      woman: Ayol
+      answer: "\U0001F517 Javob berish"
+      address: Manzlingizni kiriting.
+      courses: Kurslar
+      register: ✍ Kursa yozilish
+      change_lan: Tilni o'zgartirish
+      contact_us: Bog'lanish
+      new_message: ✍️ Yangi xabar
+      phone_number: Telefon raqamingizni kiriting.
+      success_message: Raxmat xabaringiz yuborildi tez orada siz bilan bo'g'lanamiz!
+      phone_number_btn: Telefon raqamini yuborish
+      success_register: Bizni tanlaganingiz uchun raxmat! Tez orada siz bilan bog'lanamiz.
+      register_step_one: Ushbu kursa yozilish uchun ro'yxatdan o'tish tugmasini bosing.
+    ru:
+      faq: Часто задаваемые вопросы
+      man: Мужской
+      sex: Jinsingiz?
+      back: Назад
+      home: Домашняя страница
+      name: Ismingiz?
+      next: Kiyingi
+      about: о нас
+      error: Xatolik yuz berdi!
+      group: Guruhga qo'shilish
+      woman: Ayol
+      answer: "\U0001F517 Javob berish"
+      address: Manzlingizni kiriting.
+      courses: Курсы
+      register: ✍ Kursa yozilish
+      change_lan: Изменить язык
+      contact_us: Связь
+      new_message: ✍️ Yangi xabar
+      phone_number: Telefon raqamingizni kiriting.
+      success_message: Raxmat xabaringiz yuborildi tez orada siz bilan bo'g'lanamiz!
+      phone_number_btn: Telefon raqamini yuborish
+      success_register: Bizni tanlaganingiz uchun raxmat! Tez orada siz bilan bog'lanamiz.
+      register_step_one: Ushbu kursa yozilish uchun ro'yxatdan o'tish tugmasini bosing.
+- model: data.courses
+  pk: 1
+  fields:
+    name: "\U0001F1FA\U0001F1F8 Ingliz tili"
+    description: "\U0001F4DA Darslar: Guruhda 7-8 ta o'quvchi.\r\n⏳ Haftada: 3 marta
+      - 1.5 soatdan!\r\n\U0001F4B0 Narxi: 400 000 so'm.\r\n\U0001F60D Sinov darsi
+      bepul!"
+    name_ru: "\U0001F1FA\U0001F1F8 Английский язык"
+    description_ru: "\U0001F4DA В группе: 7-8 учеников.\r\n⏳ В неделю: 3 раза по полтора
+      часа.\r\n\U0001F4B0 Цена: 400 000сум в месяц.\r\n\U0001F60D Пробный урок бесплатный!"
+    image: images/Qxuf6eb9Dh8SUrk3Pr36.jpg
+    telegram_group: https://t.me/+IibwQef4085kasdasd
+- model: data.courses
+  pk: 2
+  fields:
+    name: "\U0001F1F9\U0001F1F7 Turk tili"
+    description: "\U0001F4DA Darslar: Guruhda 7-8 ta o'quvchi.\r\n⏳ Haftada: 3 marta
+      - 1.5 soatdan!\r\n\U0001F4B0 Narxi: 400 000 so'm - 12ta dars.\r\n✅ Individualno
+      1 000 000 so’m 12 dars.\r\n\U0001F60D Sinov darsi bepul!\r\n\U0001F4CB Sinov
+      dars telegramm kanalda vidochat orqali bulib utadi!"
+    name_ru: "\U0001F1F9\U0001F1F7 Турецкий язык"
+    description_ru: "\U0001F4DA В группе: 7-8 учеников.\r\n⏳ В неделю: 3 раза по полтора
+      часа.\r\n\U0001F4B0 Цена: 400 000сум в месяц.\r\n\U0001F60D Пробный урок бесплатный!\r\n\U0001F4CB
+      Тестовое занятие проходит на телеграмм-канале, через vidochat!"
+    image: images/turk.jpg
+    telegram_group: https://t.me/+IibwQef4085kasdasd
+- model: data.courses
+  pk: 3
+  fields:
+    name: "\U0001F1E8\U0001F1F3 Xitoy tili"
+    description: "\U0001F4DA Darslar: Guruhda 7-8 ta o'quvchi.\r\n⏳ Haftada: 3 marta
+      - 1.5 soatdan!\r\n\U0001F4B0 Narxi: 400 000 so'm - 12ta dars.\r\n✅ Individualno
+      1 000 000 so’m 12 dars.\r\n\U0001F60D Sinov darsi bepul!\r\n\U0001F4CB Sinov
+      dars telegramm kanalda vidochat orqali bulib utadi!"
+    name_ru: "\U0001F1E8\U0001F1F3 Китайский язык"
+    description_ru: "\U0001F4DA В группе: 7-8 учеников.\r\n⏳ В неделю: 3 раза по полтора
+      часа.\r\n\U0001F4B0 Цена: 400 000сум в месяц.\r\n\U0001F60D Пробный урок бесплатный!\r\n\U0001F4CB
+      Тестовое занятие проходит на телеграмм-канале, через vidochat!"
+    image: images/regnum_picture_1463479618980914_normal.jpg
+    telegram_group: https://t.me/kitayskiy_byluiza
+- model: data.courses
+  pk: 4
+  fields:
+    name: "\U0001F1F7\U0001F1FA Rus tili"
+    description: "\U0001F4DA Darslar: Guruhda 7-8 ta o'quvchi.\r\n⏳ Haftada: 3 marta
+      - 1.5 soatdan!\r\n\U0001F4B0 Narxi: 400 000 so'm - 12ta dars.\r\n✅ Individualno
+      1 000 000 so’m 12 dars.\r\n\U0001F60D Sinov darsi bepul!\r\n\U0001F4CB Sinov
+      dars telegramm kanalda vidochat orqali bulib utadi!"
+    name_ru: "\U0001F1F7\U0001F1FA Русский язык"
+    description_ru: "\U0001F4DA В группе: 7-8 учеников.\r\n⏳ В неделю: 3 раза по полтора
+      часа.\r\n\U0001F4B0 Цена: 400 000сум в месяц.\r\n\U0001F60D Пробный урок бесплатный!\r\n\U0001F4CB
+      Тестовое занятие проходит на телеграмм-канале, через vidochat!"
+    image: images/AYOfzSLPtl6fQ4ZZoEsz.jpg
+    telegram_group: https://t.me/russkiyyazik055
+- model: data.courses
+  pk: 5
+  fields:
+    name: "\U0001F1F8\U0001F1E6 Arab tili"
+    description: "\U0001F4DA Darslar: Guruhda 7-8 ta o'quvchi.\r\n⏳ Haftada: 3 marta
+      - 1.5 soatdan!\r\n\U0001F4B0 Narxi: 400 000 so'm - 12ta dars.\r\n✅ Individualno
+      1 000 000 so’m 12 dars.\r\n\U0001F60D Sinov darsi bepul!\r\n\U0001F4CB Sinov
+      dars telegramm kanalda vidochat orqali bulib utadi!"
+    name_ru: "\U0001F1F8\U0001F1E6 Арабский язык"
+    description_ru: "\U0001F4DA В группе: 7-8 учеников.\r\n⏳ В неделю: 3 раза по полтора
+      часа.\r\n\U0001F4B0 Цена: 400 000сум в месяц.\r\n\U0001F60D Пробный урок бесплатный!\r\n\U0001F4CB
+      Тестовое занятие проходит на телеграмм-канале, через vidochat!"
+    image: images/shutterstock_251727988-scaled.jpg
+    telegram_group: https://t.me/arabtili_tbh
+- model: data.faq
+  pk: 1
+  fields:
+    faq: "<b>Can I enroll at Liberty University Online Academy if I live in another
+      country?</b>\r\n\r\nLiberty University Online Academy offers online distance
+      learning to students all over the world. Student work is then transmitted online
+      for the Academy to grade and record. All you need is access to a computer with
+      an internet connection!\r\n\r\n<b>Do you know my particular state’s homeschooling
+      requirements?</b>\r\n\r\nParents are ultimately responsible for knowing what
+      their state will require of them while attending LUOA. Most states view us as
+      a private school and only require a verification of enrollment letter."
+    faq_ru: "<b>Can I enroll at Liberty University Online Academy if I live in another
+      country?</b>\r\n\r\nLiberty University Online Academy offers online distance
+      learning to students all over the world. Student work is then transmitted online
+      for the Academy to grade and record. All you need is access to a computer with
+      an internet connection!\r\n\r\n<b>Do you know my particular state’s homeschooling
+      requirements?</b>\r\n\r\nParents are ultimately responsible for knowing what
+      their state will require of them while attending LUOA. Most states view us as
+      a private school and only require a verification of enrollment letter."
+- model: data.contactinfo
+  pk: 1
+  fields:
+    contact: "https://t.me/os_byLuiza\r\n\r\nSavol, etiroz yoki taklifingizni shu
+      yerga yozing. Tez orada siz bilan bog'lanamiz.\r\n\r\nltimos, bir xabarni qayta-qayta
+      yubormang.\r\n\r\n⏰ Ish vaqti: 09:00 - 19:00. Shu vaqt oralig'ida bot orqali
+      tezkorlik bilan javob olishingiz mumkin."
+    contact_ru: "https://t.me/os_byLuiza\r\n\r\n\r\n⏰ Будем рады ответить на ваши
+      вопросы с 9:00 до 23:00."
+- model: data.contactinfo
+  pk: 2
+  fields:
+    contact: https://t.me/os_byLuiza
+    contact_ru: https://t.me/os_byLuiza
+- model: data.starttext
+  pk: 1
+  fields:
+    text: "Assalomu alaykum!\r\n\r\nOnline maktabimizga hush kelibsiz!"
+    text_ru: "Здравствуйте!\r\n\r\nДобро пожаловать в нашу он-лайн школу!"
+- model: data.messages
+  pk: 1
+  fields:
+    oz: Rus tili kursimizga qabul boshlandi!
+    ru: Набор на наши курсы русского языка начался!
+    image: messages/AYOfzSLPtl6fQ4ZZoEsz.jpg
+    image_id: AgACAgIAAxkDAAICWmOUwqbbs0x_2SujYCyqcdMoEbMmAALDwjEbqMegSNGQpFwM7iE7AQADAgADcwADKwQ
+    date: 2022-12-10 17:32:21.976915+00:00
+    count: 7
+    not_send_count: 7
+    status: true
+- model: users.user
+  pk: 1
+  fields:
+    password: pbkdf2_sha256$390000$q8q9SM6D7QxiH330rKfCJe$GLjtwf/Juz/WB6iglIazjh/uAQo1U4e7P5dOqsao0ZY=
+    last_login: 2023-01-04 16:46:26.803459+00:00
+    tg_id: 0
+    phone_number: null
+    name: null
+    username: admin
+    language: ''
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2022-11-27 10:15:03.336540+00:00
+    is_active: true
+    is_admin: true
+- model: users.user
+  pk: 7
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 313578337
+    phone_number: null
+    name: Farrux Elomonov
+    username: Farruxnet
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2022-12-08 10:18:27.660841+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 8
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 274644349
+    phone_number: null
+    name: "\U0001D419\U0001D41A\U0001D41F\U0001D41A\U0001D42B \U0001D406\U0001D41A\U0001D41F\U0001D42E\U0001D42B\U0001D428\U0001D42F"
+    username: zafargafurov
+    language: ru
+    description: null
+    status: '1'
+    amount: 0
+    step: 1
+    create_at: 2022-12-08 10:35:48.433128+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 9
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 2097542076
+    phone_number: null
+    name: Oziqovqat.com
+    username: Oziqovqat_help
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 8
+    create_at: 2022-12-08 10:36:25.511004+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 10
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 257487555
+    phone_number: null
+    name: —-
+    username: null
+    language: ru
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2022-12-10 08:43:19.134526+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 11
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 138010184
+    phone_number: null
+    name: DilshodBeK
+    username: ADM0397
+    language: oz
+    description: null
+    status: '0'
+    amount: 0
+    step: 2
+    create_at: 2022-12-10 17:03:51.104125+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 12
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 5354972004
+    phone_number: null
+    name: S S
+    username: null
+    language: ru
+    description: null
+    status: '1'
+    amount: 0
+    step: 1
+    create_at: 2022-12-10 17:23:40.986011+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 13
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 1961854031
+    phone_number: null
+    name: .. ..
+    username: os_byLuiza
+    language: ru
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2022-12-13 06:29:23.129894+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 14
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 382968757
+    phone_number: null
+    name: "\U0001F33CМадина\U0001F33C"
+    username: madikaa
+    language: ru
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2022-12-15 15:39:34.634431+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 15
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 942428522
+    phone_number: null
+    name: Mira
+    username: Jakhongirova_03_09
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2022-12-19 16:51:58.111544+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 16
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 5113978205
+    phone_number: null
+    name: Mubina.Omina
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 8
+    create_at: 2022-12-19 17:16:56.809541+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 17
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 5310846792
+    phone_number: null
+    name: Dildora Yuldasheva
+    username: null
+    language: ru
+    description: null
+    status: '1'
+    amount: 0
+    step: 1
+    create_at: 2022-12-19 17:30:38.280531+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 18
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 5682902976
+    phone_number: null
+    name: Begdjanovna
+    username: Begdjanovna
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 3
+    create_at: 2023-01-02 12:05:46.390708+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 19
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 872789023
+    phone_number: null
+    name: Azim
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2023-01-02 19:07:16.922292+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 20
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 618923021
+    phone_number: null
+    name: Салтанат Торениязова
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-03 08:35:49.936539+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 21
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 1929182815
+    phone_number: null
+    name: "\U0001F98BСевинч Шерзодовна\U0001F98B"
+    username: S_Sherzodovna_04_11
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 3
+    create_at: 2023-01-03 10:02:53.501544+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 22
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 150350884
+    phone_number: null
+    name: Асадова Нозима
+    username: NOZIMASALOEVNA
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-03 12:47:44.152183+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 23
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 514181344
+    phone_number: null
+    name: Mu@tt@rJi
+    username: Ji26mbsh
+    language: ru
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-03 15:25:33.477348+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 24
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 1275734254
+    phone_number: null
+    name: Y o s i n b e k
+    username: Yasinbek_I
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 3
+    create_at: 2023-01-03 18:13:33.559527+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 25
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 459103116
+    phone_number: null
+    name: ZZZZ ZZZZ
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2023-01-04 09:35:27.638546+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 26
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 209140597
+    phone_number: null
+    name: Dauletyar Tolibaev
+    username: DoctorUrologT_D
+    language: ru
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-04 11:29:52.752719+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 27
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 5834135987
+    phone_number: null
+    name: Adhamova_28_11
+    username: Adhamova_2811
+    language: ru
+    description: null
+    status: '1'
+    amount: 0
+    step: 5
+    create_at: 2023-01-04 12:41:15.031000+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 28
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 1714259556
+    phone_number: null
+    name: ZuIeyha
+    username: Zuleyhakhodja
+    language: ru
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2023-01-04 14:00:23.178594+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 29
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 1258228484
+    phone_number: null
+    name: "\U0001D679\U0001D68A\U0001D68B\U0001D68B\U0001D698\U0001D69B\U0001D68A\U0001D695\U0001D692\U0001D6A2\U0001D68E\U0001D69F"
+    username: uspakoy523
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2023-01-04 15:25:55.553303+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 30
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 5326497085
+    phone_number: null
+    name: SAMIRA PARMANOVA
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-04 16:39:17.112046+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 31
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 1104380056
+    phone_number: null
+    name: Ravshan Mirzayev
+    username: RavSanSevSol
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-04 18:15:37.910646+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 32
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 923499577
+    phone_number: null
+    name: Диии
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 1
+    create_at: 2023-01-05 02:15:17.988518+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 33
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 982074791
+    phone_number: null
+    name: "ℍ\U0001D566\U0001D55E\U0001D560\U0001D56A\U0001D566\U0001D55F"
+    username: Khumoyun_151
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2023-01-05 08:39:40.528620+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 34
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 1659204961
+    phone_number: null
+    name: '...'
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-05 09:50:57.453415+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 35
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 5376714524
+    phone_number: null
+    name: Deleted Account
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2023-01-05 12:19:56.448050+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 36
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 790636898
+    phone_number: null
+    name: Ozoda
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-05 13:27:11.736298+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 37
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 5110179755
+    phone_number: null
+    name: Saidjon Jalolov
+    username: Jalolov_S_R
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2023-01-05 14:15:11.059669+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 38
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 5893905991
+    phone_number: null
+    name: Аркатой
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-05 14:28:01.129623+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 39
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 892287797
+    phone_number: null
+    name: '.....'
+    username: null
+    language: ru
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2023-01-05 15:34:40.231068+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 40
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 253141010
+    phone_number: null
+    name: Саодат Сабирова
+    username: saodat1987
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2023-01-05 18:57:29.758622+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 41
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 490201790
+    phone_number: null
+    name: Akmal Bobojanov
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2023-01-05 19:07:08.936940+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 42
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 5058133191
+    phone_number: null
+    name: ".....\U0001F451ㅤㅤㅤㅤ ㅤㅤㅤ◡̈⃝ㅤㅤㅤㅤ ㅤㅤㅤㅤㅤㅤ ㅤㅤ"
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-06 05:40:47.276625+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 43
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 1879943669
+    phone_number: null
+    name: Райхон Данабаевна
+    username: null
+    language: ru
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-06 07:23:54.675966+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 44
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 2017999909
+    phone_number: null
+    name: Моя
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2023-01-06 10:22:32.920236+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 45
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 2067923264
+    phone_number: null
+    name: Sadosh Yunusova
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-06 10:35:13.365605+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 46
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 5523096371
+    phone_number: null
+    name: Javohir Samariddinov
+    username: samariddinov_javohir
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 3
+    create_at: 2023-01-06 13:45:32.859709+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 47
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 5706369307
+    phone_number: null
+    name: Ulugbek Bekjon
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 1
+    create_at: 2023-01-07 09:07:24.564258+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 48
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 933743255
+    phone_number: null
+    name: HidoyatMuso
+    username: hikmatim
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-07 10:13:54.079164+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 49
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 874508275
+    phone_number: null
+    name: Charos Olloyorova.
+    username: Doddecha0711
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-07 10:39:44.835995+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 50
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 1902014827
+    phone_number: null
+    name: Ziyoda
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 3
+    create_at: 2023-01-08 04:53:35.966993+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 51
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 1152749045
+    phone_number: null
+    name: Tohirbek
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 3
+    create_at: 2023-01-08 06:49:08.240128+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 52
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 819649005
+    phone_number: null
+    name: سعيدة سعيدة
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-08 10:10:57.486933+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 53
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 1862533688
+    phone_number: null
+    name: Aziza Karimova
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 1
+    create_at: 2023-01-08 12:09:58.792651+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 54
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 5890631884
+    phone_number: null
+    name: Sokhiba
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-08 21:20:43.592248+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 55
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 5692078708
+    phone_number: null
+    name: Каюмов Илхом
+    username: QayumovvV
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 3
+    create_at: 2023-01-09 13:51:11.544380+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 56
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 5102051149
+    phone_number: null
+    name: Отабек
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-09 14:28:53.372175+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 57
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 60190678
+    phone_number: null
+    name: "Махлиёхон М З\U0001F49E"
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2023-01-09 17:20:55.376155+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 58
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 1887742823
+    phone_number: null
+    name: ooolohim Uzing asra
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2023-01-09 17:32:46.207423+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 59
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 1091803304
+    phone_number: null
+    name: Abdulaziz Axmadaliyev
+    username: Axmadaliyev_Abdulaziz
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 1
+    create_at: 2023-01-09 18:08:30.723009+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 60
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 800703974
+    phone_number: null
+    name: ✨ كامولا خان✨
+    username: null
+    language: ru
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2023-01-10 04:08:55.077548+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 61
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 5148164172
+    phone_number: null
+    name: Волк
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-10 14:19:24.073806+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 62
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 689489189
+    phone_number: null
+    name: "Queen\U0001F604\U0001F604\U0001F604"
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-10 14:38:08.932679+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 63
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 5056038689
+    phone_number: null
+    name: Muzaffar
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2023-01-10 16:06:59.188232+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 64
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 807483285
+    phone_number: null
+    name: Munisichka89
+    username: Munisa8689
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 3
+    create_at: 2023-01-10 23:45:45.608282+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 65
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 896464941
+    phone_number: null
+    name: UMARALIYEVA OZODA
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-11 08:57:44.853299+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 66
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 544123779
+    phone_number: null
+    name: Guneş
+    username: Gunesh96
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 6
+    create_at: 2023-01-11 09:31:56.649056+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 67
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 5316395839
+    phone_number: null
+    name: Alixon Kimsanov
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 3
+    create_at: 2023-01-11 10:21:19.234873+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 68
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 5486059611
+    phone_number: null
+    name: Т.М
+    username: null
+    language: ru
+    description: null
+    status: '0'
+    amount: 0
+    step: 2
+    create_at: 2023-01-11 11:36:24.992463+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 69
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 2117012936
+    phone_number: null
+    name: Azamat
+    username: Azamat608
+    language: oz
+    description: null
+    status: '0'
+    amount: 0
+    step: 3
+    create_at: 2023-01-11 16:12:43.594434+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 70
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 771610777
+    phone_number: null
+    name: Madina
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-11 19:20:31.556197+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 71
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 1884368131
+    phone_number: null
+    name: жамиля
+    username: jamilasofiya
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 1
+    create_at: 2023-01-11 19:29:05.810759+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 72
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 644039066
+    phone_number: null
+    name: "\U0001F451Dilfuza\U0001F451"
+    username: UrinboyevaDilfuza
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2023-01-12 16:41:04.575623+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 73
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 106829283
+    phone_number: null
+    name: .
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-12 19:53:35.471596+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 74
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 1737782864
+    phone_number: null
+    name: "Маматмурадовна Ойсулув\U0001F469‍\U0001F393 (х.ф.ф)"
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2023-01-13 12:54:59.803159+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 75
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 1247491992
+    phone_number: null
+    name: "\U0001D4DA\U0001D4EA\U0001D4FB\U0001D4F2\U0001D4F6\U0001D4F8\U0001D4FF\U0001D4EA"
+    username: dr_karimovaaa
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-14 03:12:58.783236+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 76
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 694452624
+    phone_number: null
+    name: Salihe
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-14 17:07:09.575634+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 77
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 1862319087
+    phone_number: null
+    name: Yusupov Iskandar
+    username: operr98
+    language: ru
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2023-01-15 13:53:10.096849+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 78
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 620066785
+    phone_number: null
+    name: Shamuratov Bobomurod
+    username: Shamuratov_1916
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-15 16:16:23.418040+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 79
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 822429493
+    phone_number: null
+    name: Шомуродова Д
+    username: null
+    language: ru
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-16 18:19:05.085486+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 80
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 886042215
+    phone_number: null
+    name: Shuxrat
+    username: djxkbd
+    language: ru
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-18 08:28:49.843185+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 81
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 1920136034
+    phone_number: null
+    name: O
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-18 17:58:46.355240+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 82
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 1125198358
+    phone_number: null
+    name: Feruza zhumabekovaferuza777@gmail.com
+    username: null
+    language: ru
+    description: null
+    status: '1'
+    amount: 0
+    step: 6
+    create_at: 2023-01-19 07:31:24.683606+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 83
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 1735396877
+    phone_number: null
+    name: "\U0001F54A\U0001F54A"
+    username: Fashion_storeUZB
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-21 07:47:35.867338+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 84
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 104882293
+    phone_number: null
+    name: ✨
+    username: d3ilrabo
+    language: oz
+    description: null
+    status: '0'
+    amount: 0
+    step: 0
+    create_at: 2023-01-24 06:58:40.541011+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 85
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 2052199588
+    phone_number: null
+    name: "Дильноза\U0001F54A"
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 3
+    create_at: 2023-01-26 02:27:50.293694+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 86
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 5642327292
+    phone_number: null
+    name: "\U0001D63F\U0001D66A\U0001D667\U0001D659\U0001D664\U0001D663\U0001D656"
+    username: null
+    language: oz
+    description: null
+    status: '0'
+    amount: 0
+    step: 3
+    create_at: 2023-01-26 02:42:48.368515+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 87
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 5964544023
+    phone_number: null
+    name: Дурбек Фатуллаев
+    username: Dglrrjn
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 1
+    create_at: 2023-01-28 07:23:33.933581+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 88
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 839895798
+    phone_number: null
+    name: Alisher
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2023-01-28 09:28:39.750062+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 89
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 5716405908
+    phone_number: null
+    name: زيلولا
+    username: shukrona_17s
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2023-01-28 11:42:30.841200+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 90
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 5895097833
+    phone_number: null
+    name: Fotima Muhammadamin
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2023-01-28 12:39:34.120424+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 91
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 1625452647
+    phone_number: null
+    name: ShahnozAbdurashidovna.
+    username: ShahnozAbdurashidovna
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-28 14:08:46.577438+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 92
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 1334167480
+    phone_number: null
+    name: Hadicha Sulton
+    username: M_Ikromaliyevna
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-28 16:27:32.220516+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 93
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 5797746992
+    phone_number: null
+    name: Расул
+    username: Khorazmsha_x
+    language: ru
+    description: null
+    status: '0'
+    amount: 0
+    step: 2
+    create_at: 2023-01-29 06:52:38.229972+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 94
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 5200250063
+    phone_number: null
+    name: SHAX MIR
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2023-01-29 12:21:42.076245+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 95
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 5575754574
+    phone_number: null
+    name: ',,Behzodjon"'
+    username: Behzodjon0101
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2023-01-29 17:49:50.703919+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 96
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 1634367729
+    phone_number: null
+    name: Нилуфар Рахматуллаева
+    username: null
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 0
+    create_at: 2023-01-30 09:31:43.073924+00:00
+    is_active: true
+    is_admin: false
+- model: users.user
+  pk: 97
+  fields:
+    password: ''
+    last_login: null
+    tg_id: 838251475
+    phone_number: null
+    name: Mamajonov Vorisjon
+    username: vorisjon
+    language: oz
+    description: null
+    status: '1'
+    amount: 0
+    step: 2
+    create_at: 2023-01-30 15:14:29.586485+00:00
+    is_active: true
+    is_admin: false
